@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DIN Next LT Arabic";
+}
+
+@font-face {
+  font-family: "DIN Next LT Arabic";
+  src: url(../assets/fonts/DINNextLTArabic-Regular-3.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+.hero_btn {
+  display: inline-block;
+  background-color: rgb(167, 118, 70);
+  color: white;
+  border-radius: 31px;
+  transition: all 0.3s;
+}
+
+.hero_btn:hover {
+  background-color: white;
+  color: rgb(167, 118, 70);
+}/*# sourceMappingURL=main.css.map */
